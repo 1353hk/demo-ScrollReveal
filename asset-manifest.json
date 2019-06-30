@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/demo-ScrollReveal/static/css/main.c404d988.chunk.css",
+    "main.js": "/demo-ScrollReveal/static/js/main.a9f770d1.chunk.js",
+    "main.js.map": "/demo-ScrollReveal/static/js/main.a9f770d1.chunk.js.map",
+    "runtime~main.js": "/demo-ScrollReveal/static/js/runtime~main.4ae29750.js",
+    "runtime~main.js.map": "/demo-ScrollReveal/static/js/runtime~main.4ae29750.js.map",
+    "static/js/2.4ed3f567.chunk.js": "/demo-ScrollReveal/static/js/2.4ed3f567.chunk.js",
+    "static/js/2.4ed3f567.chunk.js.map": "/demo-ScrollReveal/static/js/2.4ed3f567.chunk.js.map",
+    "index.html": "/demo-ScrollReveal/index.html",
+    "precache-manifest.87c30bc795bfb2a4a6399d048979e3f0.js": "/demo-ScrollReveal/precache-manifest.87c30bc795bfb2a4a6399d048979e3f0.js",
+    "service-worker.js": "/demo-ScrollReveal/service-worker.js",
+    "static/css/main.c404d988.chunk.css.map": "/demo-ScrollReveal/static/css/main.c404d988.chunk.css.map"
+  }
+}
