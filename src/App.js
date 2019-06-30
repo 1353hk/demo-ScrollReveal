@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
+import ScrollReveal from 'scrollreveal';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+let App = class extends React.Component {
+  render() {
+    return (
+      <ul className="ul">
+        {Array(10)
+          .fill()
+          .map((v, k) => {
+            return <li className="li">{k}</li>;
+          })}
+      </ul>
+    );
+  }
+  componentDidMount() {
+    ScrollReveal().reveal('.li', {
+      cleanup: true,
+      reset: true,
+      delay: 100,
+    });
+  }
+};
 
 export default App;
