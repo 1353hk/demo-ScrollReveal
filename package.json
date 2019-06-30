@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-app-rewired": "^2.1.3",
     "react-dom": "^16.8.6",
@@ -13,12 +14,15 @@
     "dev": "react-app-rewired start",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage": "https://1353hk.github.io/demo-ScrollReveal/",
   "browserslist": {
     "production": [
       ">0.2%",
